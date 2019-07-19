@@ -1,7 +1,4 @@
-# CSC 413 - Project One
+# Calculator Project
 
-## Student Name  : Anmol Gondara
-
-## Student ID    : 916110499
-
-## Student Email : agondara@mail.sfsu.edu
+## Version of Java Used: 1.8.0_101
+## IDE Used: IntelliJ IDEA 2018.2.3 (Ultimate Edition)
