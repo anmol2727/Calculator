@@ -1,0 +1,19 @@
+package edu.csc413.calculator.operators;
+
+import edu.csc413.calculator.evaluator.Operand;
+
+//Divide subclass of Operator
+public class DivideOperator extends Operator {
+    @Override
+    public int priority() {
+        //return given priority
+        return 2;
+    }
+
+    @Override
+    public Operand execute (Operand op1, Operand op2) {
+        //execute division operation
+        Operand solution = new Operand(op1.getValue() / op2.getValue());
+        return solution;
+    }
+}
